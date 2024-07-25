@@ -54,6 +54,21 @@ const TabsLayout = () => {
           }}
         />
         <Tabs.Screen
+          name="workout-tips"
+          options={{
+            title: "Tips",
+            headerShown: false,
+            tabBarIcon: ({ color, focused }) => (
+              <TabIcon
+                icon={icons.flex}
+                color={color}
+                name="Tips"
+                focused={focused}
+              />
+            ),
+          }}
+        />
+        <Tabs.Screen
           name="profile"
           options={{
             title: "Profile",
