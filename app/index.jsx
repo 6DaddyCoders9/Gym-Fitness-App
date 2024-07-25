@@ -25,12 +25,12 @@ export default function App() {
           <View className="relative mt-5">
             <Text className="text-3xl text-white font-bold text-center">
               Discover your local gym with{" "}
-              <Text className="text-secondary-200">Gym Fitness App</Text>
+              <Text className="text-blue-400">Gym Fitness App</Text>
             </Text>
           </View>
 
           <Text className="text-sm font-pregular text-gray-100 mt-7 text-center">
-            Get Fit and grow muscle!
+            Get Fit and grow muscles!
           </Text>
 
           <CustomButton
