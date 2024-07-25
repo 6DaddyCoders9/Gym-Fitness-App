@@ -85,7 +85,7 @@ const SignUp = () => {
             </Text>
             <Link
               href="/sign-in"
-              className="text-lg font-psemibold text-secondary"
+              className="text-lg font-psemibold text-blue-400"
             >
               Sign In
             </Link>
