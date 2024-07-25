@@ -35,10 +35,6 @@ const RootLayout = () => {
           name="bodyParts/[bodyPartId]"
           options={{ headerShown: false }}
         />
-        <Stack.Screen
-          name="exercises/[exerciseId]"
-          options={{ headerShown: false }}
-        />
       </Stack>
     </GlobalProvider>
   );
